@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fdfdfc;
+  --foreground: #1a1a1a;
+  --accent: #8b0000;
+}
+
+@theme inline {
+  --color-accent: var(--accent);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Charter', 'Georgia', serif;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+.section-line {
+  @apply flex items-center text-[0.9rem] font-bold tracking-[4px] text-accent uppercase mb-10;
+}
+
+.section-line::after {
+  content: "";
+  @apply flex-1 h-px bg-[#eee] ml-5;
+}

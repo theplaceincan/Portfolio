@@ -1,0 +1,20 @@
+.footer {
+  margin-top: 100px;
+  padding: 80px 40px;
+  text-align: center;
+  border-top: 1px solid #eee;
+}
+
+.quote {
+  font-size: 0.95rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+}
+
+.signOff {
+  font-style: italic;
+  color: #888;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
