@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased selection:bg-accent/10 selection:text-accent">
-        <div className="mx-auto max-w-[1000px] px-10 pt-20">
+        <div className="mx-auto max-w-250 px-10 pt-20">
           <Navbar />
           <main>{children}</main>
           <Footer />
