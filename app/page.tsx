@@ -51,25 +51,25 @@ export default function Home() {
             title="Younlv.com" 
             desc="A comprehensive resource architecture serving the UNLV academic community and student body." 
             tech="TypeScript · Vue.js · PocketBase"
-            links={[{label: "Live Project", href: "#"}, {label: "Source Code", href: "#"}]}
+            links={[{label: "Live Project", href: "https://www.younlv.com"}, {label: "Source Code", href: "https://github.com/theplaceincan/Younlv"}]}
           />
           <ProjectItem 
             title="LearnTigrigna" 
             desc="An educational website dedicated to teaching Tigrigna to the global Ethiopian and Eritrean diaspora." 
             tech="TypeScript · PocketBase · Heroku"
-            links={[{label: "Live Project", href: "#"}]}
+            links={[{label: "Live Project", href: "https://www.learntigrigna.com"}]}
           />
           <ProjectItem 
             title="MZGBT" 
             desc="Digital archive and preservation system for East African historical audio and cultural artifacts." 
             tech="JavaScript · Vue.js · Tailwind"
-            links={[{label: "Live Project", href: "#"}]}
+            links={[{label: "Live Project", href: "https://www.mzgbt.org"}]}
           />
           <ProjectItem 
             title="Discord Spam Remover" 
             desc="Automated moderation tool using the OpenAI API to protect university-scale digital environments." 
             tech="Python · OpenAI API · Discord.py"
-            links={[{label: "Source Code", href: "#"}]}
+            links={[{label: "Source Code", href: "https://github.com/theplaceincan/Discord-Spam-Remover"}]}
           />
         </div>
       </section>
