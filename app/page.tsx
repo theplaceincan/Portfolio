@@ -45,7 +45,25 @@ export default function Home() {
       </section>
 
       <section>
-        <h2 className="section-line">Projects</h2>
+        <h2 className="section-line">Industry Projects</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
+          <ProjectItem 
+            title="Prime Care Medical Transportation" 
+            desc="Non-emergency medical transportation provider serving patients and healthcare facilities across Southern Nevada." 
+            tech="Web Development · TypeScript · NextJS · Supabase"
+            links={[{label: "Live Project", href: "https://primecaremedicaltransportationllc.onrender.com/"}]}
+          />
+          <ProjectItem 
+            title="MFK Ventures" 
+            desc="Multi-service small business providing tax preparation and commercial janitorial services to local clients." 
+            tech="Frontend Development · TypeScript · NextJS "
+            links={[{label: "Live Project", href: "https://www.mfkventuress.com/"}]}
+          />
+        </div>
+      </section>
+
+      <section>
+        <h2 className="section-line">Personal Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-16">
           <ProjectItem 
             title="Younlv.com" 
