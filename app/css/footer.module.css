@@ -18,3 +18,30 @@
   font-size: 0.9rem;
   letter-spacing: 1px;
 }
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .footer {
+    margin-top: 80px;
+    padding: 40px 20px;
+  }
+
+  .quote {
+    font-size: 0.9rem;
+    padding: 0 10px;
+  }
+
+  .signOff {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 30px 15px;
+  }
+
+  .quote {
+    font-size: 0.85rem;
+  }
+}
