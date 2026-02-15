@@ -7,18 +7,25 @@ export default function Home() {
   
   const allProjects = [
     {
+      type: "Open Source · Tools",
+      title: "Novadoc",
+      description: "A word processor with inline LaTeX rendering for writing scientific/STEM documents and student notes",
+      tech: "TypeScript · Next.js · Supabase",
+      links: [{label: "View Live →", href: "https://www.novadoc.app/"}],
+    },
+    {
+      type: "Open Source · Cultural",
+      title: "LearnTigrigna",
+      description: "Educational platform teaching Tigrigna language to the global Ethiopian and Eritrean diaspora. Features interactive lessons, vocabulary builder, and progress tracking.",
+      tech: "TypeScript · PocketBase · Heroku · Audio Processing",
+      links: [{label: "View Live →", href: "https://www.learntigrigna.com"}],
+    },
+    {
       type: "Industry · Healthcare",
       title: "Prime Care Medical Transportation",
       description: "Full-stack web application for a non-emergency medical transportation provider serving patients and healthcare facilities across Southern Nevada.",
       tech: "TypeScript · Next.js · Supabase · PostgreSQL",
       links: [{label: "View Live →", href: "https://primecaremedicaltransportationllc.onrender.com/"}],
-    },
-    {
-      type: "Industry · Business",
-      title: "MFK Ventures",
-      description: "Professional business website for a multi-service company providing tax preparation and commercial janitorial services.",
-      tech: "TypeScript · Next.js · Responsive Design",
-      links: [{label: "View Live →", href: "https://www.mfkventuress.com/"}],
     },
     {
       type: "Open Source · Education",
@@ -31,18 +38,17 @@ export default function Home() {
       ],
     },
     {
-      type: "Open Source · Cultural",
-      title: "LearnTigrigna",
-      description: "Educational platform teaching Tigrigna language to the global Ethiopian and Eritrean diaspora. Features interactive lessons, vocabulary builder, and progress tracking.",
-      tech: "TypeScript · PocketBase · Heroku · Audio Processing",
-      links: [{label: "View Live →", href: "https://www.learntigrigna.com"}],
-    },
-    {
       type: "Open Source · Archive",
       title: "MZGBT Digital Archive",
       description: "Digital preservation system for East African historical audio and cultural artifacts. Searchable database with metadata tagging and audio streaming capabilities.",
       tech: "JavaScript · Vue.js · Tailwind CSS · Media Storage",
       links: [{label: "View Live →", href: "https://www.mzgbt.org"}],
+    },
+    {
+      type: "Industry · Business",
+      title: "MFK Ventures",
+      description: "Professional business website for a multi-service company providing tax preparation and commercial janitorial services.",
+      links: [{label: "View Live →", href: "https://www.mfkventuress.com/"}],
     },
     {
       type: "Open Source · AI/ML",
